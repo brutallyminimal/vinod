@@ -302,10 +302,14 @@ img {}
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #case-studies-list li {
     margin-bottom: 64px;
+    border-radius: 16px;
+    padding: 8px 0 8px 8px;
+    transition: 0.3s;
 }
 
 #case-studies-list li p {
@@ -313,7 +317,7 @@ img {}
 }
 
 #case-studies-list li img {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     width: 44%;
     height: 44%;
     -webkit-filter: drop-shadow(0px 16px 24px #ccc);
@@ -321,10 +325,12 @@ img {}
     box-sizing: border-box;
 }
 
-#case-studies-list li a:hover {
-    text-decoration: underline;
-    text-decoration-color: #000;
+#case-studies-list li:hover{
+    -webkit-filter: drop-shadow(0px 16px 32px rgba(102, 51, 153, 0.40));
+    filter: drop-shadow(0px 16px 32px rgba(102, 51, 153, 0.40));
 }
+
+
 
 #experience{
     margin: 32px 0px 88px 0px;
@@ -442,9 +448,10 @@ footer {
 
     #case-studies-list {
         justify-content: space-evenly;
+        margin-bottom: 0px;
     }
 
-    #case-studies-list {
+    #case-studies-list h1{
         margin-bottom: 0px;
     }
 
@@ -452,7 +459,8 @@ footer {
 
         text-align: center;
         max-width: 120px;
-        margin-bottom: 0px;
+        margin-bottom: 24px;
+        padding: 8px 0;
     }
 
     #case-studies-list li img {
