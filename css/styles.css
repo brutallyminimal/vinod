@@ -327,7 +327,7 @@ img {}
 }
 
 #experience{
-    margin: 40px 0px 24px 0px;
+    margin: 40px 0px 88px 0px;
 }
 
 #experience li{
@@ -335,7 +335,7 @@ img {}
 }
 
 #experience h1{
-    margin-bottom: 40px;
+    margin-bottom: 24px;
 }
 
 #experience li h1{
@@ -463,6 +463,7 @@ footer {
     #case-studies-list li p {
         display: none;
     }
+    
 
     #contact{
     	margin-top: 48px;
