@@ -1,1 +1,107 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hello, I'm vinod.</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicon/site.webmanifest">
+		<link rel="preconnect" href="https://indestructibletype.com/fonts/" crossorigin>
+		<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="css/styles.css">
+		<script type="text/javascript">
+			function getDayOfWeek() {
+				var d = new Date();
+				var weekday = new Array(7);
+				weekday[0] = "Sunday";
+				weekday[1] = "Monday";
+				weekday[2] = "Tuesday";
+				weekday[3] = "Wednesday";
+				weekday[4] = "Thursday";
+				weekday[5] = "Friday";
+				weekday[6] = "Saturday";
+				var n = weekday[d.getDay()];
+				document.getElementById("day").innerHTML = n;
+			}
+			window.onload = getDayOfWeek;
+		</script>
+	</head>
+	<body>
+		<section id=wrapper>
+			<header>
+				<h1>👋🏽 Hello, I’m <span class="underline">Vinod</span>.</h1>
+				<nav>
+					<a href="#">Resume</a>
+				</nav>
+			</header>
+			<section id="elevator">
+				
+				<h1>I’m a seasoned Product Designer who loves to experiment with code.</h1>
+				<p>I am simplifying people's lives through design and code since 2009. I believe good design is — simple, honest, focuses on functionality and solves a problem for fellow humans. Empathy is my tool of choice to understand this complicated world. I'm currently looking for exciting full-time opportunities in Berlin.</p>
+			</section>
+			<section id="case-studies">
+				<h1>Some of  what I’ve made so far —</h1>
+				<ul id="case-studies-list">
+					
+					<li>
+						<a href="#">
+							<img src="assets/graphite.png" alt="">
+							<h1>Graphite</h1>
+							<p>A simple desktop app to search, browse and copy Streamline icons.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/storybook.png" alt="">
+							<h1>Storybook</h1>
+							<p>A UI pattern browser made with Figma API to help in the design audit exercise.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/alertness-index.png" alt="">
+							<h1>Driver.AI</h1>
+							<p>Android app to detect and promote alertness for long-haul drivers.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/captain-bus.png" alt="">
+							<h1>Captain Bus</h1>
+							<p>Enabling a bus driver to efficiently pick-up and drop riders on a route.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/ola-store.png" alt="">
+							<h1>Ola Store</h1>
+							<p>Hyperlocal grocery delivery service for major cities in India.</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/partner-portal.png" alt="">
+							<h1>Supply Growth</h1>
+							<p>Multiple product and service design experiments to grow the driver fleet.</p>
+						</a>
+					</li>
+				</ul>
+				
+			</section>
+			<section id="contact">
+				<p>
+					I’m looking to solve interesting problems. Have you got any? Perfect. Lets get in touch -- <span class="bold">vinod@brutallyminimal.com</span>
+				</p>
+			</section>
+			<footer>
+				<p>Handmade with a lot of love. Happy <span id="day"></span>.</p>
+			</footer>
+			
+		</section>
+		
+		
+		
+	</body>
+</html>
