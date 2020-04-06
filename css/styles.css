@@ -152,6 +152,7 @@ p {
     line-height: 32px;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -413,7 +414,7 @@ footer {
 
         text-align: center;
         max-width: 120px;
-        margin-bottom: 24px;
+        margin-bottom: 0px;
     }
 
     #case-studies-list li img {
