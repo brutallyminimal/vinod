@@ -337,6 +337,13 @@ img {}
 
 #experience{
     margin: 32px 0px 88px 0px;
+
+}
+
+#experience ul{
+    list-style: disc outside none;
+    color: #999;
+    padding-left: 16px;
 }
 
 #experience li{
@@ -353,6 +360,7 @@ img {}
 
 #experience li h2{
     margin-bottom: 4px;
+    color: #000;
 }
 
 #contact {
