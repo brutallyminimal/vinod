@@ -155,6 +155,7 @@ p {
 
 a {
     text-decoration: none;
+    cursor: url(../assets/cursor.png), auto;
 }
 
 
@@ -311,6 +312,7 @@ img {}
     padding: 16px 0 16px 16px;
     overflow: visible;
     transition: 0.3s;
+    cursor: url(../assets/cursor.png), auto;
 }
 
 #case-studies-list li p {
