@@ -155,7 +155,7 @@ p {
 
 a {
     text-decoration: none;
-    cursor: url(../assets/cursor.png), auto;
+    cursor: pointer;
 }
 
 
@@ -251,6 +251,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    background-color: #f8f8f8;
 }
 
 #wrapper {
@@ -312,8 +313,12 @@ img {}
     padding: 16px 0 16px 16px;
     overflow: visible;
     transition: 0.3s;
-    cursor: url(../assets/cursor.png), auto;
+    cursor: url(../assets/cursor.png), pointer;
     box-sizing: border-box;
+}
+
+#case-studies-list li a{
+     cursor: url(../assets/cursor.png), pointer;
 }
 
 #case-studies-list li p {
@@ -331,6 +336,7 @@ img {}
 
 #case-studies-list li:hover{
     box-shadow: 0px 16px 40px #e5e5e5;
+    background-color: #fff;
 }
 
 
