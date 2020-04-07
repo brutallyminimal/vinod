@@ -9,14 +9,22 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/assets/alertness-index.png": {
 		"ft": 32768,
 		"iS": 2477,
 		"oA": 0,
 		"oAP": "/assets/alertness-index.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -26,8 +34,19 @@
 		"oA": 0,
 		"oAP": "/assets/captain-bus.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/cursor.png": {
+		"ft": 32768,
+		"iS": 819,
+		"oA": 0,
+		"oAP": "/assets/cursor.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -108,8 +127,8 @@
 		"oA": 0,
 		"oAP": "/assets/graphite.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -119,8 +138,8 @@
 		"oA": 0,
 		"oAP": "/assets/ola-store.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -130,19 +149,8 @@
 		"oA": 0,
 		"oAP": "/assets/partner-portal.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/storybook.png": {
-		"ft": 32768,
-		"iS": 1397,
-		"oA": 0,
-		"oAP": "/assets/storybook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
