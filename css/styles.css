@@ -83,13 +83,17 @@ summary,
 time,
 mark,
 audio,
-video {
+video
+{
+    font: inherit;
+    font-size: 100%;
+
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
+
     vertical-align: baseline;
+
+    border: 0;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -103,35 +107,41 @@ header,
 hgroup,
 menu,
 nav,
-section {
+section
+{
     display: block;
 }
 
-body {
+body
+{
     line-height: 1;
 }
 
 ol,
-ul {
+ul
+{
     list-style: none;
 }
 
 blockquote,
-q {
+q
+{
     quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after {
+q:after
+{
     content: '';
     content: none;
 }
 
-table {
-    border-collapse: collapse;
+table
+{
     border-spacing: 0;
+    border-collapse: collapse;
 }
 
 /* I love you Eric Meyer. May Rebecca rest in peace. */
@@ -139,367 +149,433 @@ table {
 
 /* Typography */
 html,
-body {
+body
+{
     font-family: 'Jost', sans-serif;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-    font-weight: 400;
+p
+{
     font-size: 18px;
-    color: #000000;
+    font-weight: 400;
     line-height: 32px;
+
+    color: #000;
 }
 
 
-a {
-    text-decoration: none;
+a
+{
     cursor: pointer;
+    text-decoration: none;
 }
 
 
 
-header h1 {
+header h1
+{
     font-size: 24px;
     font-weight: 500;
-    color: #000000;
+
+    color: #000;
 }
 
-nav a {
-    font-weight: 400;
+nav a
+{
     font-size: 18px;
+    font-weight: 400;
+
     text-decoration: none;
-    color: #666666;
+
+    color: #666;
 }
 
-nav a:hover {
+nav a:hover
+{
     text-decoration: underline;
-    color: #000000;
+
+    color: #000;
 }
 
-#elevator h1 {
+#elevator h1
+{
     font-size: 40px;
     font-weight: 600;
-    color: #000000;
     line-height: 56px;
+
+    color: #000;
 }
 
-#case-studies h1, #experience h1 {
+#case-studies h1,
+#experience h1
+{
     font-size: 24px;
-    color: #666;
+    font-weight: 500;
     line-height: 42px;
-    font-weight: 500;
+
+    color: #666;
 }
 
-#case-studies-list li h1 {
-
-    font-weight: 500;
+#case-studies-list li h1
+{
     font-size: 24px;
+    font-weight: 500;
     line-height: 36px;
 
-    color: #000000;
-
-
+    color: #000;
 }
 
-#experience ul li h2{
+#experience ul li h2
+{
     font-size: 18px;
-    font-weight: 600
+    font-weight: 600;
 }
 
-#experience ul li h1{
+#experience ul li h1
+{
     font-size: 16px;
     font-weight: 400;
-    color: #666;
     line-height: 40px;
+
+    color: #666;
 }
 
-#experience ul li p{
+#experience ul li p
+{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-#contact p {
-
-    font-weight: 400;
+#contact p
+{
     font-size: 24px;
+    font-weight: 400;
     line-height: 40px;
-    color: #000000;
+
     max-width: 504px;
 
+    color: #000;
 }
 
-#contact p span.bold {
+#contact p span.bold
+{
     font-weight: 500;
 }
 
-footer p {
-    font-weight: 400;
+footer p
+{
     font-size: 14px;
+    font-weight: 400;
     line-height: 40px;
-    color: #000000;
 
-
+    color: #000;
 }
 
 /* Layout */
-body {
-    padding-top: 64px;
-    padding-bottom: 64px;
+body
+{
     box-sizing: border-box;
     width: 100%;
     height: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
     background-color: #f8f8f8;
 }
 
-#wrapper {
+#wrapper
+{
     max-width: 768px;
     margin: 0 auto;
 }
 
-header {
+header
+{
     display: flex;
     flex-direction: row;
+
     justify-content: space-between;
     align-items: baseline;
 }
 
-nav {
+nav
+{
     font-size: 0;
+
     text-align: right;
 }
 
-nav a {
+nav a
+{
     margin-left: 32px;
 }
 
-img {}
 
-#elevator {
+
+#elevator
+{
     margin-top: 116px;
     margin-bottom: 56px;
 }
 
-#elevator h1 {
+#elevator h1
+{
     margin-bottom: 32px;
 }
 
-#elevator p {
+#elevator p
+{
     max-width: 640px;
 }
 
-#case-studies h1 {
+#case-studies h1
+{
     margin-bottom: 48px;
 }
 
-#case-studies-list h1 {
-    margin-bottom: 0px;
+#case-studies-list h1
+{
+    margin-bottom: 0;
 }
 
-#case-studies-list {
+#case-studies-list
+{
     display: flex;
     flex-direction: row;
+
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
     -webkit-tap-highlight-color: transparent;
 }
 
-#case-studies-list li {
-    margin-bottom: 32px;
-    border-radius: 16px;
-    padding: 16px 0 16px 16px;
+#case-studies-list li
+{
     overflow: visible;
-    transition: 0.3s;
-    cursor: url(../assets/cursor.png), pointer;
+
     box-sizing: border-box;
+    margin-bottom: 32px;
+    padding: 16px 0 16px 16px;
+
+    cursor: url(../assets/cursor.png), pointer;
+    transition: .3s;
+
+    border-radius: 16px;
 }
 
-#case-studies-list li a{
-     cursor: url(../assets/cursor.png), pointer;
+#case-studies-list li a
+{
+    cursor: url(../assets/cursor.png), pointer;
 }
 
-#case-studies-list li p {
+#case-studies-list li p
+{
     max-width: 232px;
 }
 
-#case-studies-list li img {
-    margin-bottom: 16px;
+#case-studies-list li img
+{
+    box-sizing: border-box;
     width: 36%;
     height: 36%;
+    margin-bottom: 16px;
+
     -webkit-filter: drop-shadow(0px 16px 24px #ccc);
-    filter: drop-shadow(0px 16px 24px #ccc);
-    box-sizing: border-box;
+            filter: drop-shadow(0px 16px 24px #ccc);
 }
 
-#case-studies-list li:hover{
-    box-shadow: 0px 16px 40px #e5e5e5;
+#case-studies-list li:hover
+{
     background-color: #fff;
+    box-shadow: 0 16px 40px #e5e5e5;
 }
 
 
 
-#experience{
-    margin: 40px 0px 88px 0px;
-
+#experience
+{
+    margin: 40px 0 88px 0;
 }
 
-#experience ul{
-    list-style: disc outside none;
-    color: #999;
+#experience ul
+{
     padding-left: 16px;
+
+    list-style: disc outside none;
+
+    color: #999;
 }
 
-#experience li{
+#experience li
+{
     margin-bottom: 32px;
 }
 
-#experience h1{
+#experience h1
+{
     margin-bottom: 32px;
 }
 
-#experience li h1{
-    margin-bottom: 0px;
+#experience li h1
+{
+    margin-bottom: 0;
 }
 
-#experience li h2{
+#experience li h2
+{
     margin-bottom: 4px;
+
     color: #000;
 }
 
-#contact {
+#contact
+{
     margin-top: 72px;
 }
 
-footer {
+footer
+{
     margin-top: 104px;
 }
 
-@media screen and (max-width: 800px) {
-
-
-    body {
+@media screen and (max-width: 800px)
+{
+    body
+    {
         padding: 64px 24px;
     }
 
     /*
-	p{
-	font-size: 16px;
-	line-height: 28px;
-	}
+    p{
+    font-size: 16px;
+    line-height: 28px;
+    }
 */
 
 
-    header h1 {
+    header h1
+    {
         font-size: 18px;
     }
 
-    nav a {
+    nav a
+    {
         font-size: 18px;
     }
 
-    #elevator h1 {
+    #elevator h1
+    {
         font-size: 32px;
         line-height: 48px;
     }
 
-    #case-studies h1, #experience h1 {
+    #case-studies h1,
+    #experience h1
+    {
         font-size: 20px;
         line-height: 28px;
     }
 
-    #case-studies-list li h1 {
-
+    #case-studies-list li h1
+    {
         font-size: 18px;
-        line-height: 28px;
         font-weight: 600;
-
-
+        line-height: 28px;
     }
 
 
-    #contact p {
-
-        font-weight: 400;
+    #contact p
+    {
         font-size: 24px;
+        font-weight: 400;
         line-height: 40px;
-        color: #000000;
+
         max-width: 504px;
 
+        color: #000;
     }
 
-    #contact p span.bold {
+    #contact p span.bold
+    {
         font-weight: 500;
     }
 
-    footer p {
-        font-weight: 400;
+    footer p
+    {
         font-size: 14px;
+        font-weight: 400;
         line-height: 40px;
-        color: #000000;
 
-
+        color: #000;
     }
 
 
     /*Layout*/
 
-    #elevator {
+    #elevator
+    {
         margin-top: 80px;
         margin-bottom: 56px;
     }
 
-    #elevator h1 {
+    #elevator h1
+    {
         margin-bottom: 24px;
     }
 
-    #case-studies{
-
+    #case-studies
+    {
     }
 
-    #case-studies h1 {
+    #case-studies h1
+    {
         margin-bottom: 40px;
     }
 
-    #case-studies-list {
+    #case-studies-list
+    {
+        margin-bottom: 0;
+
         justify-content: space-evenly;
-        margin-bottom: 0px;
     }
 
-    #case-studies-list h1{
-        margin-bottom: 0px;
+    #case-studies-list h1
+    {
+        margin-bottom: 0;
     }
 
-    #case-studies-list li {
-
-        text-align: center;
+    #case-studies-list li
+    {
         max-width: 120px;
         margin-bottom: 24px;
         padding: 8px 0;
+
+        text-align: center;
     }
 
-    #case-studies-list li img {
+    #case-studies-list li img
+    {
         width: 60%;
         margin-bottom: 8px;
     }
 
-    #case-studies-list li p {
+    #case-studies-list li p
+    {
         display: none;
     }
-    
 
-    #contact{
-    	margin-top: 48px;
+
+    #contact
+    {
+        margin-top: 48px;
     }
-
 }
 
 
-@media screen and (max-width: 340px) {
-
-
-
-
+@media screen and (max-width: 340px)
+{
 }
