@@ -290,7 +290,7 @@ img {}
 }
 
 #case-studies h1 {
-    margin-bottom: 56px;
+    margin-bottom: 48px;
 }
 
 #case-studies-list h1 {
@@ -336,7 +336,7 @@ img {}
 
 
 #experience{
-    margin: 32px 0px 88px 0px;
+    margin: 40px 0px 88px 0px;
 
 }
 
@@ -347,11 +347,11 @@ img {}
 }
 
 #experience li{
-    margin: 32px 0;
+    margin-bottom: 32px;
 }
 
 #experience h1{
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 #experience li h1{
