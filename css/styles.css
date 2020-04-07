@@ -307,12 +307,13 @@ img {}
 }
 
 #case-studies-list li {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     border-radius: 16px;
     padding: 16px 0 16px 16px;
     overflow: visible;
     transition: 0.3s;
     cursor: url(../assets/cursor.png), auto;
+    box-sizing: border-box;
 }
 
 #case-studies-list li p {
