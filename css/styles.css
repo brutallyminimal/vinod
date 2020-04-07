@@ -516,6 +516,7 @@ nav a
     text-align: center;
 
     opacity: 0;
+
     color: #fff;
     border-radius: 6px;
     background-color: #333;
@@ -551,10 +552,6 @@ nav a
 
     box-shadow: 0 16px 40px #ccc;
 }
-
-
-
-
 
 #contact
 {
