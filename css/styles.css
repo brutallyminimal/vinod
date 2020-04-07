@@ -308,7 +308,8 @@ img {}
 #case-studies-list li {
     margin-bottom: 64px;
     border-radius: 16px;
-    padding: 8px 0 8px 8px;
+    padding: 16px 0 16px 16px;
+    overflow: visible;
     transition: 0.3s;
 }
 
@@ -326,8 +327,7 @@ img {}
 }
 
 #case-studies-list li:hover{
-    -webkit-filter: drop-shadow(0px 16px 32px rgba(102, 51, 153, 0.40));
-    filter: drop-shadow(0px 16px 32px rgba(102, 51, 153, 0.40));
+    box-shadow: 0px 16px 40px #e5e5e5;
 }
 
 
