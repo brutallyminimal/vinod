@@ -7,7 +7,7 @@
 		"uuidString": "EEF16333-5123-42F9-8A48-29058D27FC92"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32001",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -39,11 +39,44 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/codekit.png": {
+		"ft": 32768,
+		"iS": 5844,
+		"oA": 0,
+		"oAP": "/assets/codekit.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/css.png": {
+		"ft": 32768,
+		"iS": 4691,
+		"oA": 0,
+		"oAP": "/assets/css.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/cursor.png": {
 		"ft": 32768,
 		"iS": 819,
 		"oA": 0,
 		"oAP": "/assets/cursor.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/electron.png": {
+		"ft": 32768,
+		"iS": 5924,
+		"oA": 0,
+		"oAP": "/assets/electron.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -121,11 +154,88 @@
 		"oAP": "/assets/favicon/site.webmanifest",
 		"oF": 0
 		},
+	"/assets/figma.png": {
+		"ft": 32768,
+		"iS": 4201,
+		"oA": 0,
+		"oAP": "/assets/figma.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/github.png": {
+		"ft": 32768,
+		"iS": 6157,
+		"oA": 0,
+		"oAP": "/assets/github.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/graphite.png": {
 		"ft": 32768,
 		"iS": 4926,
 		"oA": 0,
 		"oAP": "/assets/graphite.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/html.png": {
+		"ft": 32768,
+		"iS": 4825,
+		"oA": 0,
+		"oAP": "/assets/html.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/iawriter.png": {
+		"ft": 32768,
+		"iS": 5677,
+		"oA": 0,
+		"oAP": "/assets/iawriter.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/javascript.png": {
+		"ft": 32768,
+		"iS": 4127,
+		"oA": 0,
+		"oAP": "/assets/javascript.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/mindnode.png": {
+		"ft": 32768,
+		"iS": 7087,
+		"oA": 0,
+		"oAP": "/assets/mindnode.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/nodejs.png": {
+		"ft": 32768,
+		"iS": 7813,
+		"oA": 0,
+		"oAP": "/assets/nodejs.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -143,11 +253,110 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/origami.png": {
+		"ft": 32768,
+		"iS": 4235,
+		"oA": 0,
+		"oAP": "/assets/origami.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/partner-portal.png": {
 		"ft": 32768,
 		"iS": 7405,
 		"oA": 0,
 		"oAP": "/assets/partner-portal.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/pixelmator.png": {
+		"ft": 32768,
+		"iS": 11362,
+		"oA": 0,
+		"oAP": "/assets/pixelmator.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/processing.png": {
+		"ft": 32768,
+		"iS": 11236,
+		"oA": 0,
+		"oAP": "/assets/processing.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/react.png": {
+		"ft": 32768,
+		"iS": 6139,
+		"oA": 0,
+		"oAP": "/assets/react.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/sketch.png": {
+		"ft": 32768,
+		"iS": 4530,
+		"oA": 0,
+		"oAP": "/assets/sketch.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/storybook.png": {
+		"ft": 32768,
+		"iS": 1332,
+		"oA": 0,
+		"oAP": "/assets/storybook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/sublime.png": {
+		"ft": 32768,
+		"iS": 4601,
+		"oA": 0,
+		"oAP": "/assets/sublime.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/vectorinator.png": {
+		"ft": 32768,
+		"iS": 8300,
+		"oA": 0,
+		"oAP": "/assets/vectorinator.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/xcode.png": {
+		"ft": 32768,
+		"iS": 11675,
+		"oA": 0,
+		"oAP": "/assets/xcode.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -815,6 +1024,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -991,6 +1204,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1016,6 +1233,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1319,6 +1540,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1522,6 +1747,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,

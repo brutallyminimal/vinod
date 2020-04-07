@@ -163,7 +163,7 @@ p
     font-weight: 400;
     line-height: 32px;
 
-    color: #000;
+    color: #333;
 }
 
 
@@ -180,7 +180,7 @@ header h1
     font-size: 24px;
     font-weight: 500;
 
-    color: #000;
+    color: #333;
 }
 
 nav a
@@ -197,7 +197,7 @@ nav a:hover
 {
     text-decoration: underline;
 
-    color: #000;
+    color: #333;
 }
 
 #elevator h1
@@ -206,11 +206,12 @@ nav a:hover
     font-weight: 600;
     line-height: 56px;
 
-    color: #000;
+    color: #333;
 }
 
 #case-studies h1,
-#experience h1
+#experience h1,
+#toolkit h1
 {
     font-size: 24px;
     font-weight: 500;
@@ -225,7 +226,7 @@ nav a:hover
     font-weight: 500;
     line-height: 36px;
 
-    color: #000;
+    color: #333;
 }
 
 #experience ul li h2
@@ -258,7 +259,7 @@ nav a:hover
 
     max-width: 504px;
 
-    color: #000;
+    color: #333;
 }
 
 #contact p span.bold
@@ -272,7 +273,7 @@ footer p
     font-weight: 400;
     line-height: 40px;
 
-    color: #000;
+    color: #333;
 }
 
 /* Layout */
@@ -396,9 +397,8 @@ nav a
 
 
 
-#experience
-{
-    margin: 40px 0 88px 0;
+#experience{
+    margin: 40px 0 56px 0;
 }
 
 #experience ul
@@ -429,12 +429,59 @@ nav a
 {
     margin-bottom: 4px;
 
-    color: #000;
+    color: #333;
+}
+
+#toolkit{
+
+}
+
+#toolkit h1
+{
+    margin-bottom: 24px;
+}
+
+#toolkit ul{
+    font-size: 0;
+}
+
+#toolkit ul li{
+    display: inline-block;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+#toolkit ul li[data-role="list-divider"]{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin-right: 0px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+    background-color: #e5e5e5;
+    padding: 6px 8px;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+}
+
+#toolkit ul li img{
+    width: 64px;
+    height: 64px;
+    box-sizing: border-box;
+}
+
+#toolkit ul li p{
+    font-size: 14px;
+    font-weight: 500;
 }
 
 #contact
 {
-    margin-top: 72px;
+    margin-top: 96px;
 }
 
 footer
@@ -496,7 +543,7 @@ footer
 
         max-width: 504px;
 
-        color: #000;
+        color: #333;
     }
 
     #contact p span.bold
@@ -510,7 +557,7 @@ footer
         font-weight: 400;
         line-height: 40px;
 
-        color: #000;
+        color: #333;
     }
 
 
