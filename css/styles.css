@@ -480,7 +480,7 @@ span.wave {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  #wrapper {
     padding: 64px 24px;
   }
 
@@ -558,6 +558,10 @@ span.wave {
     margin-bottom: 24px;
     padding: 8px 0;
     text-align: center;
+  }
+
+  #case-studies-list li a{
+    padding:0px;
   }
 
   #case-studies-list li img {
