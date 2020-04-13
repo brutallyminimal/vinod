@@ -237,14 +237,14 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  padding-top: 64px;
-  padding-bottom: 64px;
   background-color: #f8f8f8;
 }
 
 #wrapper {
   max-width: 768px;
   margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 header {
@@ -297,7 +297,6 @@ nav a {
   overflow: visible;
   box-sizing: border-box;
   margin-bottom: 32px;
-  padding: 16px 0 16px 16px;
   cursor: url(../assets/cursor.png), pointer;
   transition: .3s;
   border-radius: 16px;
@@ -305,6 +304,9 @@ nav a {
 
 #case-studies-list li a {
   cursor: url(../assets/cursor.png), pointer;
+  display: inline-block;
+  padding: 16px 0px 16px 16px;
+  box-sizing: border-box;
 }
 
 #case-studies-list li p {
@@ -470,6 +472,11 @@ span.wave {
    40% { transform: rotate(  9.0deg) }
    50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
   100% { transform: rotate(  0.0deg) }
+}
+
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: #000;
 }
 
 @media screen and (max-width: 768px) {
