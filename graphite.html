@@ -2,85 +2,146 @@
 <html lang="en">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122715692-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122715692-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
-		gtag('config', 'UA-122715692-2');
-	</script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-122715692-2');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!-- Primary Meta Tags -->
-	<title>Hello, I'm Vinod.</title>
-	<meta name="title" content="Vinod's Product Design Portfolio.">
-	<meta name="description" content="For now, I publish my work and process here. I have plans to add some exciting stuff shortly.">
-	<meta name="author" content="Vinod Ramamoorthy">
+  <!-- Primary Meta Tags -->
+  <title>Hello, I'm Vinod.</title>
+  <meta name="title" content="Vinod's Product Design Portfolio.">
+  <meta name="description" content="For now, I publish my work and process here. I have plans to add some exciting stuff shortly.">
+  <meta name="author" content="Vinod Ramamoorthy">
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://vinod.design/">
-	<meta property="og:title" content="Vinod's Product Design Portfolio.">
-	<meta property="og:description" content="For now, I publish my work and process here. I have plans to add some exciting stuff shortly.">
-	<meta property="og:image" content="assets/preview.png">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vinod.design/">
+  <meta property="og:title" content="Vinod's Product Design Portfolio.">
+  <meta property="og:description" content="For now, I publish my work and process here. I have plans to add some exciting stuff shortly.">
+  <meta property="og:image" content="assets/preview.png">
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://vinod.design/">
-	<meta property="twitter:title" content="Vinod's Product Design Portfolio.">
-	<meta property="twitter:description" content="For now, I publish my work and process here. I have plans to add some exciting stuff shortly.">
-	<meta property="twitter:image" content="assets/preview.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://vinod.design/">
+  <meta property="twitter:title" content="Vinod's Product Design Portfolio.">
+  <meta property="twitter:description" content="For now, I publish my work and process here. I have plans to add some exciting stuff shortly.">
+  <meta property="twitter:image" content="assets/preview.png">
 
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="assets/favicon/site.webmanifest">
-	<link rel="preconnect" href="https://indestructibletype.com/fonts/" crossorigin>
-	<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
-	<link rel="stylesheet" href="css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://indestructibletype.com/fonts/" crossorigin>
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="css/styles.css">
 
-	<script src="js/turbolinks.js" charset="utf-8"></script>
+  <script src="js/turbolinks.js" charset="utf-8"></script>
 
-	<script type="text/javascript">
-		function getDayOfWeek() {
-			var d = new Date();
-			var weekday = new Array(7);
-			weekday[0] = "Sunday";
-			weekday[1] = "Monday";
-			weekday[2] = "Tuesday";
-			weekday[3] = "Wednesday";
-			weekday[4] = "Thursday";
-			weekday[5] = "Friday";
-			weekday[6] = "Saturday";
-			var n = weekday[d.getDay()];
-			document.getElementById("day").innerHTML = n;
-		}
-		window.onload = getDayOfWeek;
-	</script>
+  <script type="text/javascript">
+    function getDayOfWeek() {
+      var d = new Date();
+      var weekday = new Array(7);
+      weekday[0] = "Sunday";
+      weekday[1] = "Monday";
+      weekday[2] = "Tuesday";
+      weekday[3] = "Wednesday";
+      weekday[4] = "Thursday";
+      weekday[5] = "Friday";
+      weekday[6] = "Saturday";
+      var n = weekday[d.getDay()];
+      document.getElementById("day").innerHTML = n;
+    }
+    window.onload = getDayOfWeek;
+  </script>
 </head>
 
 <body>
-	<section id="article">
-in progress.
+  <section id="wrapper">
 
-<video class="noSelect" controls width="960" height="540" poster="assets/videos/graphite-poster.png">
-  <source src="assets/videos/graphite-demo.mp4"
-          type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
-          Your browser doesn't support video playback.
-</video>
-	</section>
+    <video class="noSelect" controls poster="assets/videos/graphite-poster.png">
+      <source src="assets/videos/graphite-demo.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+
+      <!-- <track src="devstories-en.vtt" label="English subtitles"
+                 kind="captions" srclang="en" default></track> -->
+      Your browser doesn't support video playback.
+    </video>
+
+    <section id="toolkit">
+      <ul>
+        <li data-role="list-divider">Tools</li><br>
+
+        <li>
+          <img src="assets/figma.png" alt="Figma">
+          <p>Figma</p>
+          <span class="tooltiptext">Best UI design tool yet. Real-time collaboration with design, product and development.</span>
+        </li>
+
+        <li>
+          <img src="assets/sketch.png" alt="Sketch">
+          <p>Sketch</p>
+          <span class="tooltiptext">First UI design tool I ever loved. I still use it to do that odd job that Figma cannot handle.</span>
+        </li>
+
+
+        <li>
+          <img src="assets/html.png" alt="HTML 5">
+          <p>HTML</p>
+          <span class="tooltiptext">Bread and butter of the internet.</span>
+        </li>
+        <li>
+          <img src="assets/css.png" alt="CSS 3">
+          <p>CSS</p>
+          <span class="tooltiptext">CSS powers the style and character of the internet. Thanks, Eric Meyer.</span>
+        </li>
+        <li>
+          <img src="assets/javascript.png" alt="Javascript">
+          <p>Javascript</p>
+          <span class="tooltiptext">Programming language of the web that everyone loves to hate. Not me.</span>
+        </li>
+        <li>
+          <img src="assets/electron.png" alt="Electron">
+          <p>Electron</p>
+          <span class="tooltiptext">Make platform agnostic desktop apps with HTML, CSS & JS.</span>
+        </li>
+        <li>
+          <img src="assets/sublime.png" alt="Sublime Text">
+          <p>Sublime Text</p>
+          <span class="tooltiptext">Tried atom and all, But this one takes the cake. Best IDE there is.</span>
+        </li>
+
+        <li>
+          <img src="assets/codekit.png" alt="Codekit">
+          <p>Codekit</p>
+          <span class="tooltiptext">Cannot think of web development without this nifty little tool.</span>
+        </li>
+        <li>
+          <img src="assets/github.png" alt="Github">
+          <p>Github</p>
+          <span class="tooltiptext">Version code and collaborate with developers. Also, Github Pages.</span>
+        </li>
+      </ul>
+    </section>
+
+    <a href="index.html#case-studies">Home</a>
+  </section>
+
+
 </body>
 
 </html>
