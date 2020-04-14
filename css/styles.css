@@ -479,6 +479,21 @@ span.wave {
   background-color: #000;
 }
 
+/* Cases */
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    outline: 0;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
 @media screen and (max-width: 768px) {
   #wrapper {
     padding: 64px 24px;
