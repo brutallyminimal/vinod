@@ -601,6 +601,7 @@ video {
 .case-study-nav ul li img {
   width: 56px;
   height: 56px;
+  margin-bottom: 4px;
 }
 
 .case-study-nav ul li p {
